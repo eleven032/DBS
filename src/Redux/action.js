@@ -1,0 +1,5 @@
+export const addAction = (payload) => ({type: 'add_book', payload})
+export const deleteAction = (payload) => ({type: 'delete_book', payload})
+export const returnAction = (payload) => ({type: 'return_book', payload})
+export const borrowAction = (payload) => ({type: 'borrow_book', payload})
+export const changeRole = (payload) => ({type: 'change_role', payload})
